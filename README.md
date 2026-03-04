@@ -66,13 +66,16 @@ berichtsheft-cli tui --year 2026 --week 11
 
 TUI keys:
 
-- `j/k` move
+- `j/k` or `↑/↓` select day
+- `h/l` or `←/→` previous/next week
 - `s` cycle status
-- `l` toggle location
-- `+/-` time
-- `e` edit text (`Enter` save, `Esc` cancel)
-- `[` / `]` previous/next week
-- `r` reload
+- `o` toggle location (Ort)
+- `+/-` adjust hours
+- `e` or `Enter` open text editor (`Ctrl+S` save text to form, `Esc` cancel)
+- `w` save selected day
+- `a` save all changed days
+- `r` reload week
+- `?` toggle shortcut help
 - `q` quit
 
 ## Notes
